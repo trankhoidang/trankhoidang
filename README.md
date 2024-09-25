@@ -1,16 +1,36 @@
-### Hi there 👋
+### Hi there! 👋
 
-<!--
-**trankhoidang/trankhoidang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm currently pursuing an **MSc in Applied Mathematics** in Toulouse, France.
 
-Here are some ideas to get you started:
+I’m passionate about leveraging Machine Learning and Deep Learning techniques to solve complex problems, including image classification, object detection, Large Language Models, natural language understanding, generation, multimodal tasks, and developing new techniques to push the boundaries of these fields.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🔬 Research Domains and Experiences
+- **Out-of-distribution detection/Out-of-Model-Scope detection**
+- **Multimodal retrieval-augmented generation**
+- **Multi-class and multi-label image classification (medical images)**
+- **Semantic segmentation** (medical images)
+
+---
+
+### 💻 Academic Projects
+
+#### Machine Learning and Deep Learning
+- **Anomaly detection** on multivariate time series data using deep learning 📉
+- **EfficientDet** & **YOLOv5** for object detection 🦾
+- **Stain detection** for textiles in e-commerce 🛍️ (object detection and synthetic data creation)
+- **Clustering** of Velib' bike station usage behavior 🚴‍♂️
+- Applications of various classical machine learning and deep learning techniques for **binary classification**, **anomaly detection**, and **interpretable AI** 🤖
+
+#### Other Projects
+- **Recommendation system** for recommending films based on plot summaries 🎥
+- **Radon transformation** for image processing 🖼️
+- **Lifetime analysis** for statistical modeling ⏳
+- **Brownian motion** & **Ito calculus**, linked to the **Black-Scholes equation** 📉
+- **Statistical analysis** and **visualization** for multidimensional datasets 📊
+---
+
+### 🌱 Currently Exploring
+- Developing applications for **Large Language Models**
+- **Machine Learning Operations** (MLOps) for scalable and efficient deployment
