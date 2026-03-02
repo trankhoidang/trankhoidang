@@ -1,34 +1,36 @@
-### Hi there! 👋
+# Hey, I'm Khoi 👋
 
-I'm pursuing an **MSc in Applied Mathematics** in Toulouse, France, focusing on **Machine Learning**, **Deep Learning**, **image classification**, **object detection**, **NLP**, **Large Language Models**, and **multimodal tasks**.
+ML Scientist in Toulouse, France. I build deep learning models for medical imaging.
 
----
+Most of my day-to-day involves computer vision for **dermatology** (skin lesion segmentation, disease classification), **trichoscopy** (hair & scalp analysis — segmentation, follicle counting, disease detection), and **ECG** (signal classification + digitizing paper ECGs into structured data). I work closely with dermatologists and trichologists to make sure the models actually make sense clinically.
 
-### 🔬 Research Domains and Experiences
-- **Out-of-distribution detection**
-- **Multimodal retrieval-augmented generation**
-- **Multi-class and multi-label image classification** (medical images)
-- **Semantic segmentation** (medical images)
+I also care about making models **reliable** — I did research on runtime monitoring of neural networks and how to set thresholds that hold up when the data shifts. And I've explored the LLM/RAG side of things during an internship, building a private-data chatbot with LlamaIndex and benchmarking multimodal RAG pipelines.
+
+Outside of work: enthusiastic but terrible at badminton 🏸, ping pong 🏓, and chess ♟️. Always down for a board game night.
 
 ---
 
-### 💻 Academic Projects
+### What I work with
 
-#### Machine Learning and Deep Learning
-- **Anomaly detection** on multivariate time series data 📉
-- **EfficientDet** & **YOLOv5** for object detection 🦾
-- **Stain detection** for textiles in e-commerce 🛍️
-- **Clustering** of Velib' bike usage 🚴‍♂️
-- Applied ML/DL for **binary classification**, **anomaly detection**, and **interpretable AI** 🤖
+**Day-to-day:** Python · PyTorch · PyTorch Lightning · image segmentation & classification & detection
 
-#### Other Projects
-- **Film recommendation system** based on plot summaries 🎥
-- **Radon transformation** for image processing 🖼️
-- **Lifetime analysis** for small datasets ⏳
-- **Brownian motion**, **Ito calculus** & **Black-Scholes equation** 📉
-- **Statistical analysis** and **visualization** of multidimensional data 📊
+**Curious about:** self-supervised learning · vision transformers · weak supervision · label noise handling
+
 ---
 
-### 🌱 Currently Exploring
-- **Large Language Models** and applications
-- **MLOps** for scalable deployment
+### Publication
+
+*Can We Defend Against the Unknown? An Empirical Study About Threshold Selection for Neural Network Monitoring*
+UAI 2024 · [[paper]](https://hal.science/hal-04579393v1/document)
+
+---
+
+### A few things I've worked on
+
+🔬 **Skin lesion & dermoscopic analysis** — segmentation with U-Net variants, multi-label disease classification, OOD detection for clinical classifiers
+
+💇 **Hair & scalp analysis suite** — hair segmentation, follicle detection/counting, erythema detection, hair type & disease classification (built with trichologist feedback)
+
+❤️ **ECG pipelines** — disease classification from signals + a digitization pipeline that turns paper ECG images into structured waveform data
+
+🤖 **RAG chatbot prototype** — private-data Q&A with LlamaIndex, multimodal RAG evaluation for PDF documents
